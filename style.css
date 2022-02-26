@@ -1,0 +1,174 @@
+html,
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    background-color: #fefbe9;
+    background-image: -webkit-linear-gradient(65deg, #fefbe9 90%, #e1eedd 5%);
+}
+
+header {
+    color: #f0a04b;
+
+    padding: 1rem 0 1rem 0;
+    top: 0;
+    left: 0; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Meow Script", cursive;
+    font-size: 2.5rem;
+}
+
+footer {
+    background-color: #fefbe9;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    color: #183a1d;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 7rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bigContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px;
+    align-items: center;
+}
+
+#containerSection{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -210px;
+}
+
+.boardSettings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 10px ;
+}
+
+#board {
+    height: 500px;
+    width: 500px;
+    margin: 1rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px  10px grey;
+}
+
+.btn {
+    background-color: #e1eedd;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-large {
+    background-color: #f0a04b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 35px;
+    border-radius: 35px;
+}
+
+.form-label, .btn {
+    font-size: 1.2rem;
+    color: #183a1d;
+    margin: 10px 0 10px 0;
+}
+
+.input-color-container {
+    position: relative;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    border: solid 2px #ddd;
+    border-radius: 35px;
+}
+.control-color{
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-range {
+    /* The slider itself */
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #e1eedd;
+    outline: none;
+    /* Remove outline */
+    opacity: 1;
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #183a1d;
+    cursor: pointer;
+}
+
+.form-range::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #183a1d;
+    cursor: pointer;
+}
+
+span {
+    margin: 10px;
+}
+#gitlogo {
+    transition: all 0.4s;
+}
+#gitlogo:hover{
+    transform: rotate(360deg);
+    height: 40px; 
+}
