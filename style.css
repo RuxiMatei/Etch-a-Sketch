@@ -42,10 +42,9 @@ footer {
     font-size: 1.2rem;
     color: #183a1d;
 
-    position: fixed;
     left: 0;
     bottom: 0;
-    height: 7rem;
+    height: 5rem;
     width: 100%;
 
     display: flex;
