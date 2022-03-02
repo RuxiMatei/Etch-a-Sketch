@@ -26,37 +26,30 @@
                 <div class = "btn rounded-pill">
                     <span>Paper Color</span>
                     <div class="input-color-container">
-                        <input type="color" class="control-color" value="#ffffff">
+                        <input id = "paperColor" type="color" class="control-color" value="#ffffff">
                     </div>
                 </div>
-                <div class = "btn rounded-pill">
+                <div id = "pencil" class = "tog btn rounded-pill">
                     <span>Pen Color</span>
                     <div class="input-color-container">
-                        <input type="color" class="control-color" value="#000000">
+                        <input id = "pencilColor" type="color" class="control-color" value="#000000">
                     </div>
                 </div>
-                <div class = "btn rounded-pill">
+                <div id = "unicorn" class = "btn rounded-pill">
                     <span>Unicorn!</span>
                     <img src = "images/unicorn (2).png">
                 </div>
-                <div class = "btn rounded-pill">
+                <div id = "eraser" class = "btn rounded-pill">
                     <span>Eraser</span>
                     <img src = "images/eraser.png">
                 </div>
                     <label for="boardSize" class="form-label">12 x 12</label>
-                    <input type="range" class="form-range" min="5" max="60" default = "12" step="1" id="boardSize">
-
-                <!--<button class = "btn rounded-pill">Background Color <input type="color" class="form-control form-control-color" value="#000000"></button>
-                <button class = "btn rounded-pill">Pen Color <input type="color" class="form-control form-control-color" value="#ffffff"></button>
-                <button class = "btn rounded-pill">Unicorn Mode!</button>
-                <button class = "btn rounded-pill">Eraser</button>
-                <label for="boardSize" class="form-label">Size</label>
-                <input type="range" class="form-range" min="3" max="10" step="1" id="boardSize"> -->
-            </div>
-            <div id = "board"></div>
+                    <input type="range" class="form-range" min="5" max="100" value = "12" step="1" id="boardSize">
+         </div>
+            <div class = "grid-container" id = "board"></div>
         </div>
         <div class = "boardSettings">
-            <button class = "btn btn-large rounded-pill">Clear Board</button>
+            <button class = "btn btn-large rounded-pill" id = "clearBoard">Clear Board</button>
         </div>
     </div>
 
