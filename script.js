@@ -73,7 +73,7 @@ colorChanger = (e) => {
         e.target.style.backgroundColor = unicornColorGenerator();
     } else {
         e.target.classList.add("unchanged");
-        e.target.style.backgroundColor = paper;  
+        e.target.style.backgroundColor = paper; 
     };
 };
 
