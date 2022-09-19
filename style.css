@@ -17,8 +17,8 @@ header {
     color: #f0a04b;
 
     padding: 1rem 0 1rem 0;
-    top: 0;
-    left: 0; 
+    
+    margin-top: 5rem;
 
     display: flex;
     flex-direction: column;
@@ -44,7 +44,8 @@ footer {
     color: #183a1d;
 
     left: 0;
-    bottom: 0;
+    position: absolute;
+    bottom: 2rem;
     height: 5rem;
     width: 100%;
 
